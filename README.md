@@ -5,7 +5,7 @@ Home: https://github.com/python/typeshed
 
 Package license: Apache-2.0 AND MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-protobuf-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-protobuf-feedstock/blob/main/LICENSE.txt)
 
 Summary: Typing stubs for protobuf
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13193&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/types-protobuf-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13193&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/types-protobuf-feedstock?branchName=main">
       </a>
     </td>
   </tr>
