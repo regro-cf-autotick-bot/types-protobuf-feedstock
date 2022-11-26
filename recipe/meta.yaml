@@ -1,5 +1,5 @@
 {% set name = "types-protobuf" %}
-{% set version = "3.20.4.6" %}
+{% set version = "4.21.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-protobuf-{{ version }}.tar.gz
-  sha256: ba27443c592bbec1629dd69494a24c84461c63f0d3b7d648ce258aaae9680965
+  sha256: 229f3ad94e4717de19d75143bd657bfcf97c37f9baa658f1515a686f3f0cce43
 
 build:
   number: 0
@@ -25,7 +25,6 @@ requirements:
 
 test:
   commands:
-    - test -f $SP_DIR/google-stubs/__init__.pyi
     - test -f $SP_DIR/google-stubs/protobuf/__init__.pyi
 
 
