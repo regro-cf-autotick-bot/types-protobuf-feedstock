@@ -1,5 +1,5 @@
 {% set name = "types-protobuf" %}
-{% set version = "4.21.0.7" %}
+{% set version = "4.22.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-protobuf-{{ version }}.tar.gz
-  sha256: 6ecaddcc7aed2c636745a17c1411932cdef7a035304d50ffd4140297b6b882e8
+  sha256: bf2b414d815dc387c0a041d9207db054c7cdb94591bb233d9b71a85243e05efc
 
 build:
   number: 0
